@@ -1,0 +1,88 @@
+#UserBlock {
+  height: 100vh;
+}
+
+#UserBlock article {
+  display: flex;
+  height: 100vh;
+}
+
+.UserleftBlock {
+  flex-basis: 20%;
+  background-color: #000;
+  color: white;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.UserrightBlock {
+  flex-basis: 80%;
+  background-color: #121212;
+  color: white;
+}
+.UserleftBlock svg {
+  fill: #fff;
+  width: 150px;
+ margin-top: 20px;
+ margin-left: 20px;
+}
+
+.UserleftBlock ul li {
+  padding: 10px;
+  margin: 10px;
+  
+  
+}
+
+.UserleftBlock ul li a {
+  text-decoration: none;
+  color: rgb(66, 65, 65);
+}
+
+.UserleftBlock ul li span {
+  margin: 10px;
+}
+
+.UserleftBlock li:hover {
+   background-color: rgb(71, 70, 70);
+
+}
+.UserleftBlock a:hover{
+     color: #fff;
+}
+
+.Menu2 li a span{
+    color:#fff;
+}
+
+.Menu2 {
+ margin-top: 40px;
+ font-size: 20px;
+}
+
+.fa-plus-square{
+    background-color: #fff;
+}
+
+.fa-heart-square{
+   background-color: purple;
+   color:#fff;
+    font-size: 20px;
+   
+}
+
+hr{
+    width:85%;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(59, 58, 58);
+}
+
+
+footer{
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+footer span{
+    padding: 10px;
+}
