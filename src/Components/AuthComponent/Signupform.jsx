@@ -42,6 +42,12 @@ const Signupform = ({ history }) => {
         let confirmMessage = `A verification message has been sent to ${email} and verify and login`;
         USER_DATA.user.sendEmailVerification();
         toast.info(confirmMessage);
+
+        USER_DATA.user.updateProfile({
+          displayName: profile_name,
+          photoURL:
+            "https://tse3.mm.bing.net/th?id=OIP.A_FZ9Kf0WnJdqJATNsi8vwHaHa&pid=Api&P=0&w=300&h=300",
+        });
         history.push("./login");
         // console.log(USER_DATA);
         // toast.success("sucessfully user registered");

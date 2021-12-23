@@ -1,16 +1,17 @@
 import React from 'react'
 import Logo from '../Pages/HeaderComponent/Logo'
-
+import "./user.css"
+import { Link } from 'react-router-dom'
 
 const UserLeftBlock = () => {
     return (
       <div className="UserleftBlock">
-        <Logo />
+       
         <ul>
           <li>
-            <a href="">
+            <Link to="/userhome/music-Home">
               <i class="fas fa-home-lg-alt"></i> <span>Home</span>
-            </a>
+            </Link>
           </li>
           <li>
             <a href="">
@@ -27,10 +28,10 @@ const UserLeftBlock = () => {
         </ul>
         <ul className="Menu2">
           <li>
-            <a href="#">
+            <Link to="/userHome/create-playlist">
               <i class="fas fa-plus-square"></i>
               <span>Create Playlist</span>
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#">

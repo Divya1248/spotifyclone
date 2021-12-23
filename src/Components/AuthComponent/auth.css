@@ -201,6 +201,10 @@ align-items: center;
 width:100%;
 align-items: center;
 }
+.btn3 a{
+  text-decoration: none;
+  color:#000;
+}
 
 .btn-group1 button{
   background: #1ed760;
